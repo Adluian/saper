@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="pragma" content="no-cache" />
+	<title>Saper</title>
+	<link rel="stylesheet" href="css/main.css" type="text/css" media="screen" />
+	<script src="js/Event.js"></script>
+	<script src="js/BoardModel.js"></script>
+	<script src="js/BoardView.js"></script>
+	<script src="js/Board.js"></script>
+	<script src="js/Game.js"></script>
+</head>
+<body>
+
+<h1>Saper</h1>
+
+<select id="type">
+	<option value="classic" selected="selected">Klasyczny</option>
+</select>
+
+<select id="level">
+	<option value="beginner" selected="selected">Łatwy</option>
+	<option value="intermediate">Średni</option>
+	<option value="expert">Trudny</option>
+</select>
+
+<button onclick="Game.start();">Start</button>
+
+<div id="board"></div>
+
+</body>
+</html>
